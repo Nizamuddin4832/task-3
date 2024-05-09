@@ -1,0 +1,45 @@
+                                                     Git - commands
+# git initialization
+Git init
+# to add all the files together
+Git add .
+# adding particular file
+Git add file_name      --(like file.txt or  .java files )
+# add user_name and user_email ( we need to add details so that git knows who is using)
+Git config user.name “name”
+                   &
+Git config user. Email “email”
+# used to transfer the files from stagging to local repository
+Git commit -m “message” (like a comment, what we have modified )
+# to send a particular file (to commit particular file)
+Git commit file_name  -m “msg”
+# to  see the history of commits
+Git log
+# to see the status of the file
+Git status
+Commad :  git remote add alias url
+#to send the code in remote_repo
+gir push alias master
+# to check which remote repo  our local repo connected 
+Git remote   -v
+                                                     Branching section
+# to create a new branch 
+git branch new_branchname
+# to move into a branch
+Git checkout branch_name
+Or 
+Git switched branch_name
+# list of the branches
+Git branch or git branch –list
+# at a time create and get into the branch
+Git checkout -b new_branchname
+# delete the branch
+Git branch -d branch_name
+# to rename a branch
+Git branch -m  new_name
+# to reflect a branch in remote_repo
+Git push alias branch_name
+# to delete a branch only in remote repository
+Git push alias  -d branch_name
+
+
